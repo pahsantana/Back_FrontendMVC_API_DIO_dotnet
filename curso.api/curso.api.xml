@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>curso.api</name>
+    </assembly>
+    <members>
+        <member name="M:curso.api.Controllers.UsuarioController.Logar(curso.api.Models.Usuarios.LoginViewModelInput)">
+             <summary>
+             Este serviço permite autenticar um usuário cadastrado e não ativo
+             /// </summary>
+             <param name="loginViewModelInput">View model do login</param>
+            <returns>Retorna status ok,dados do usuario e o token em caso de sucessos</returns>
+        </member>
+        <member name="M:curso.api.Controllers.UsuarioController.Registrar(curso.api.Models.Usuarios.RegistroViewModelInput)">
+            <summary>
+            Este serviço permite cadastrar um usuário cadastrado não existente
+            </summary>
+            <param name="loginViewModelInput">View model do registro de login</param>
+        </member>
+    </members>
+</doc>
